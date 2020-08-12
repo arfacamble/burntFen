@@ -1,0 +1,27 @@
+h2 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 30px
+}
+p {
+    font-size: 20px
+}
+#jumpbuttons {
+    display: flex;
+    flex-direction: row;
+}
+#subsectionbees {
+    display: flex;
+    flex-direction: column;
+    /* background-image: "https://upload.wikimedia.org/wikipedia/commons/9/92/Natural_Beehive_and_Honeycombs.jpg"; */
+}
+/* #biodynamic {
+    width: 33%
+}
+#bio {
+    width: 33%
+}
+#bees {
+    width: 33%
+} */
