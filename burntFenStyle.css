@@ -16,6 +16,10 @@ p {
     display: flex;
     flex-direction: row;
 }
+.sectionImg {
+    max-height: 400px;
+    max-width: 100%;
+}
 #subsectionbees {
     display: flex;
     flex-direction: column;
