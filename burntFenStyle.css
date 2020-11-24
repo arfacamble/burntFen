@@ -72,6 +72,10 @@ p {
     flex-direction: column;
     /* background-image: "https://upload.wikimedia.org/wikipedia/commons/9/92/Natural_Beehive_and_Honeycombs.jpg"; */
 }
+.footer {
+    display: flex;
+    flex-direction: row;
+}
 /* #biodynamic {
     width: 33%
 }
