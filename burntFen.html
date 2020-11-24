@@ -1,47 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title> Burnt Fen Flowers </title>
+    <title>Burnt Fen Flowers</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&family=Space+Grotesk:wght@300;400;700&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <link rel="stylesheet" type="text/css" href="burntFenStyle.css">
 </head>
 <body>
-
-    <!-- There should be a logo at the top-->
-    <img class=sectionImg src="burntFenImages/burntFenLogo.png" alt="burnt fen flowers logo">
-    <h2> Biodynamic flowers risen from the sweet soils of Norfolk </h2>
-
-    <p> Do you want to know when we're running pop-up sales? Maybe we'll start a subscription service. We'd love to let
-        you know if you join our mailing list:</p>
-    <form action="/action_page.php">
-        <label for="email">Email address:</label>
-        <input type="text" name="email"><br><br>
-        <input type="submit" value="Submit">
-    </form>
-
-    <div id="jumpbuttons">    
-        <a href="#biodynamic">biodynamic</a>
-        <a href="#bio">bio</a>
-        <a href="#bees">bees</a>
-    </div>
-
-<div class=section id="biodynamic">
-    <img class=sectionImg src="burntFenImages/biodynamic.jpg" alt="bees pollinating">
-    <div class=sectionText>
-        <h3>biodynamic</h3>
-        <p> You might be surprised to find out that organic farming does use chemical pesticides. The pesticides that organic farmers used in the 80s are illegal now, and the pesticides organic farmers use now will quite possibly be illegal in organic farming in the years to come. Biodynamic farming uses no pesticides but rather designs crop cycles to promote maximum soil health.</p>
-    </div>
-    </div>
-
-<div id="subsection">
-    <h3 id="bio">bio</h3>
-    <p> We are Alfie and the other one and we love things coming out of the brown stuff and turning bright colours! Alfie also works as a gardener to the rich and famous all over London and the other one sells tie-dye jeans!</p>
-</div>
-
-<div id="subsectionbees">
-    <h3 id="bees">bees</h3>
-    <p> Here you can see a picture of our beautiful bee-hive. There's no lid for us to take off and steal honey because this is here only to tempt in free pollinators. Big ups to the ecosystem yeah?!</p>
-</div>
-
+    <header>
+        <div class="banner">
+            <!-- <img class=sectionImg src="burntFenImages/burntFenLogo.png" alt="burnt fen flowers logo"> -->
+            <div class="bannertext">
+                <h1 class="logo">Burntfen Flowers</h1>
+                <h2> Biodynamic flowers risen from the sweet soils of Norfolk </h2>
+                <div id="emailForm">
+                    <p> Join our mailing list:</p>
+                    <form action="/action_page.php">
+                        <input type="text" name="email"><br><br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-lg-4" class="section" id="biodynamic">
+                    <div class="section-text">
+                        <h3>biodynamic</h3>
+                        <p> You might be surprised to find out that organic farming does use chemical pesticides. The pesticides that organic farmers used in the 80s are illegal now, and the pesticides organic farmers use now will quite possibly be illegal in organic farming in the years to come. Biodynamic farming uses no pesticides but rather designs crop cycles to promote maximum soil health.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-4">
+                    <div id="subsection">
+                        <h3 id="bio">bio</h3>
+                        <p> We are Alfie and the other one and we love things coming out of the brown stuff and turning bright colours! Alfie also works as a gardener to the rich and famous all over London and the other one sells tie-dye jeans!</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-4">
+                    <div id="subsectionbees">
+                        <h3 id="bees">bees</h3>
+                        <p> Here you can see a picture of our beautiful bee-hive. There's no lid for us to take off and steal honey because this is here only to tempt in free pollinators. Big ups to the ecosystem yeah?!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!-- address, social media links, join mailing list button again -->
+    </footer>
 </body>
 
 </html>
